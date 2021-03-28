@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="184" started-at="2021-03-27T20:18:31 IST" finished-at="2021-03-27T20:18:31 IST">
+    <groups>
+      <group name="regression">
+        <method signature="OrganisationTest.Modify()[pri:0, instance:Conflict.OrganisationTest@6cc4c815]" name="Modify" class="Conflict.OrganisationTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="OrganisationTest.Test()[pri:0, instance:Conflict.OrganisationTest@6cc4c815]" name="Test" class="Conflict.OrganisationTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Surefire test" duration-ms="184" started-at="2021-03-27T20:18:31 IST" finished-at="2021-03-27T20:18:31 IST">
+      <class name="Conflict.OrganisationTest">
+        <test-method status="PASS" signature="Modify()[pri:0, instance:Conflict.OrganisationTest@6cc4c815]" name="Modify" duration-ms="24" started-at="2021-03-27T20:18:31 IST" finished-at="2021-03-27T20:18:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Modify -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:Conflict.OrganisationTest@6cc4c815]" name="Test" duration-ms="1" started-at="2021-03-27T20:18:31 IST" finished-at="2021-03-27T20:18:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- Conflict.OrganisationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

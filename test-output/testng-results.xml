@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="121" started-at="2021-03-27T20:17:54 IST" finished-at="2021-03-27T20:17:54 IST">
+    <groups>
+      <group name="regression">
+        <method signature="OrganisationTest.Modify()[pri:0, instance:Conflict.OrganisationTest@6321e813]" name="Modify" class="Conflict.OrganisationTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="OrganisationTest.Test()[pri:0, instance:Conflict.OrganisationTest@6321e813]" name="Test" class="Conflict.OrganisationTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="121" started-at="2021-03-27T20:17:54 IST" finished-at="2021-03-27T20:17:54 IST">
+      <class name="Conflict.OrganisationTest">
+        <test-method status="PASS" signature="Modify()[pri:0, instance:Conflict.OrganisationTest@6321e813]" name="Modify" duration-ms="20" started-at="2021-03-27T20:17:54 IST" finished-at="2021-03-27T20:17:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Modify -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:Conflict.OrganisationTest@6321e813]" name="Test" duration-ms="3" started-at="2021-03-27T20:17:54 IST" finished-at="2021-03-27T20:17:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- Conflict.OrganisationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
