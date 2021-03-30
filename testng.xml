@@ -4,6 +4,14 @@
   <test  name="Test">
     <classes>
       <class name="Conflict.ContacTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test  name="Test1">
+    <classes>
+  
+      <class name="Conflict.OrganisationTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+

@@ -1,27 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="121" started-at="2021-03-27T20:17:54 IST" finished-at="2021-03-27T20:17:54 IST">
+  <suite name="Suite" duration-ms="218" started-at="2021-03-30T10:56:27 IST" finished-at="2021-03-30T10:56:28 IST">
     <groups>
-      <group name="regression">
-        <method signature="OrganisationTest.Modify()[pri:0, instance:Conflict.OrganisationTest@6321e813]" name="Modify" class="Conflict.OrganisationTest"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="OrganisationTest.Test()[pri:0, instance:Conflict.OrganisationTest@6321e813]" name="Test" class="Conflict.OrganisationTest"/>
-      </group> <!-- smoke -->
+      <group name="regressionTest">
+        <method signature="ContacTest.Modify()[pri:0, instance:Conflict.ContacTest@6321e813]" name="Modify" class="Conflict.ContacTest"/>
+        <method signature="OrganisationTest.Modify()[pri:0, instance:Conflict.OrganisationTest@10bbd20a]" name="Modify" class="Conflict.OrganisationTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="ContacTest.Test()[pri:0, instance:Conflict.ContacTest@6321e813]" name="Test" class="Conflict.ContacTest"/>
+        <method signature="ContacTest.create()[pri:0, instance:Conflict.ContacTest@6321e813]" name="create" class="Conflict.ContacTest"/>
+        <method signature="OrganisationTest.Test()[pri:0, instance:Conflict.OrganisationTest@10bbd20a]" name="Test" class="Conflict.OrganisationTest"/>
+      </group> <!-- smokeTest -->
     </groups>
-    <test name="Default test" duration-ms="121" started-at="2021-03-27T20:17:54 IST" finished-at="2021-03-27T20:17:54 IST">
-      <class name="Conflict.OrganisationTest">
-        <test-method status="PASS" signature="Modify()[pri:0, instance:Conflict.OrganisationTest@6321e813]" name="Modify" duration-ms="20" started-at="2021-03-27T20:17:54 IST" finished-at="2021-03-27T20:17:54 IST">
+    <test name="Test3" duration-ms="33" started-at="2021-03-30T10:56:27 IST" finished-at="2021-03-30T10:56:28 IST">
+      <class name="DEC.Demo">
+        <test-method status="PASS" signature="add()[pri:0, instance:DEC.Demo@394e1a0f]" name="add" duration-ms="4" started-at="2021-03-30T10:56:27 IST" finished-at="2021-03-30T10:56:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:DEC.Demo@394e1a0f]" name="sub" duration-ms="2" started-at="2021-03-30T10:56:27 IST" finished-at="2021-03-30T10:56:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+      </class> <!-- DEC.Demo -->
+    </test> <!-- Test3 -->
+    <test name="Test1" duration-ms="195" started-at="2021-03-30T10:56:27 IST" finished-at="2021-03-30T10:56:27 IST">
+      <class name="Conflict.ContacTest">
+        <test-method status="PASS" signature="Modify()[pri:0, instance:Conflict.ContacTest@6321e813]" name="Modify" duration-ms="28" started-at="2021-03-30T10:56:27 IST" finished-at="2021-03-30T10:56:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Modify -->
-        <test-method status="PASS" signature="Test()[pri:0, instance:Conflict.OrganisationTest@6321e813]" name="Test" duration-ms="3" started-at="2021-03-27T20:17:54 IST" finished-at="2021-03-27T20:17:54 IST">
+        <test-method status="PASS" signature="Test()[pri:0, instance:Conflict.ContacTest@6321e813]" name="Test" duration-ms="21" started-at="2021-03-30T10:56:27 IST" finished-at="2021-03-30T10:56:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-      </class> <!-- Conflict.OrganisationTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="create()[pri:0, instance:Conflict.ContacTest@6321e813]" name="create" duration-ms="14" started-at="2021-03-30T10:56:27 IST" finished-at="2021-03-30T10:56:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+      </class> <!-- Conflict.ContacTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
 </testng-results>

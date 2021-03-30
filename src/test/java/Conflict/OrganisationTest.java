@@ -4,15 +4,15 @@ import org.testng.annotations.Test;
 
 public class OrganisationTest {
 
-	@Test(groups="smoke")
+	@Test(groups="smokeTest")
 	public void Test() {
-		System.out.println("create testing");
+		System.out.println("create testing4");
 	}
 	
-	@Test(groups="regression")
+	@Test(groups="regressionTest")
 	public void Modify() {
 		//a=10;
-		System.out.println("modification");
+		System.out.println("create testing5");
 	}
 	
 }

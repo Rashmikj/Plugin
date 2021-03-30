@@ -1,27 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="184" started-at="2021-03-27T20:18:31 IST" finished-at="2021-03-27T20:18:31 IST">
+  <suite name="Suite" duration-ms="134" started-at="2021-03-30T10:13:23 IST" finished-at="2021-03-30T10:13:23 IST">
     <groups>
-      <group name="regression">
-        <method signature="OrganisationTest.Modify()[pri:0, instance:Conflict.OrganisationTest@6cc4c815]" name="Modify" class="Conflict.OrganisationTest"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="OrganisationTest.Test()[pri:0, instance:Conflict.OrganisationTest@6cc4c815]" name="Test" class="Conflict.OrganisationTest"/>
-      </group> <!-- smoke -->
+      <group name="regressionTest">
+        <method signature="ContacTest.Modify()[pri:0, instance:Conflict.ContacTest@5034c75a]" name="Modify" class="Conflict.ContacTest"/>
+        <method signature="OrganisationTest.Modify()[pri:0, instance:Conflict.OrganisationTest@8bd1b6a]" name="Modify" class="Conflict.OrganisationTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="ContacTest.LoginTest()[pri:0, instance:Conflict.ContacTest@5034c75a]" name="LoginTest" class="Conflict.ContacTest"/>
+        <method signature="ContacTest.Test()[pri:0, instance:Conflict.ContacTest@5034c75a]" name="Test" class="Conflict.ContacTest"/>
+        <method signature="ContacTest.createcontactTest()[pri:0, instance:Conflict.ContacTest@5034c75a]" name="createcontactTest" class="Conflict.ContacTest"/>
+        <method signature="OrganisationTest.Test()[pri:0, instance:Conflict.OrganisationTest@8bd1b6a]" name="Test" class="Conflict.OrganisationTest"/>
+      </group> <!-- smokeTest -->
     </groups>
-    <test name="Surefire test" duration-ms="184" started-at="2021-03-27T20:18:31 IST" finished-at="2021-03-27T20:18:31 IST">
+    <test name="Test1" duration-ms="134" started-at="2021-03-30T10:13:23 IST" finished-at="2021-03-30T10:13:23 IST">
       <class name="Conflict.OrganisationTest">
-        <test-method status="PASS" signature="Modify()[pri:0, instance:Conflict.OrganisationTest@6cc4c815]" name="Modify" duration-ms="24" started-at="2021-03-27T20:18:31 IST" finished-at="2021-03-27T20:18:31 IST">
+        <test-method status="PASS" signature="Modify()[pri:0, instance:Conflict.OrganisationTest@8bd1b6a]" name="Modify" duration-ms="12" started-at="2021-03-30T10:13:23 IST" finished-at="2021-03-30T10:13:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Modify -->
-        <test-method status="PASS" signature="Test()[pri:0, instance:Conflict.OrganisationTest@6cc4c815]" name="Test" duration-ms="1" started-at="2021-03-27T20:18:31 IST" finished-at="2021-03-27T20:18:31 IST">
+        <test-method status="PASS" signature="Test()[pri:0, instance:Conflict.OrganisationTest@8bd1b6a]" name="Test" duration-ms="1" started-at="2021-03-30T10:13:23 IST" finished-at="2021-03-30T10:13:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
       </class> <!-- Conflict.OrganisationTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Test1 -->
+    <test name="Test" duration-ms="134" started-at="2021-03-30T10:13:23 IST" finished-at="2021-03-30T10:13:23 IST">
+      <class name="Conflict.ContacTest">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:Conflict.ContacTest@5034c75a]" name="LoginTest" duration-ms="12" started-at="2021-03-30T10:13:23 IST" finished-at="2021-03-30T10:13:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="Modify()[pri:0, instance:Conflict.ContacTest@5034c75a]" name="Modify" duration-ms="0" started-at="2021-03-30T10:13:23 IST" finished-at="2021-03-30T10:13:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Modify -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:Conflict.ContacTest@5034c75a]" name="Test" duration-ms="1" started-at="2021-03-30T10:13:23 IST" finished-at="2021-03-30T10:13:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="createcontactTest()[pri:0, instance:Conflict.ContacTest@5034c75a]" name="createcontactTest" duration-ms="1" started-at="2021-03-30T10:13:23 IST" finished-at="2021-03-30T10:13:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontactTest -->
+      </class> <!-- Conflict.ContacTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

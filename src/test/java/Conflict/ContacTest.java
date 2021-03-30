@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class ContacTest {
 
-	@Test(groups="smoke")
+/*	@Test(groups="smokeTest")
 	public void createcontactTest() {
 		System.out.println("create testi");
 
@@ -13,26 +13,26 @@ public class ContacTest {
 		
 
 		System.out.println("testing continuosly");
-	}
+	}*/
 	
 
-	@Test(groups="smoke")
-	public void LoginTest() {
-		System.out.println("create testin");
-		System.out.println("testing continuosly");
+	@Test(groups="smokeTest")
+	public void create() {
+		System.out.println("create testing1");
+		//System.out.println("testing continuosly");
 	}
 	
 	
 
-	@Test(groups="smoke")
+	@Test(groups="smokeTest")
 	public void Test() {
-		System.out.println("create testing");
+		System.out.println("create testing2");
 	}
 	
-	@Test(groups="regression")
+	@Test(groups="regressionTest")
 	public void Modify() {
 		//a=10;
-		System.out.println("modification");
+		System.out.println("create testing3");
 	}
 	
 
